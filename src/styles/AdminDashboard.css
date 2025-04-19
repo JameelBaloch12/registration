@@ -1,0 +1,28 @@
+.admin-dashboard {
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.admin-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.admin-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 250px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.admin-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.03);
+}

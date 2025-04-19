@@ -1,0 +1,86 @@
+/* General container styles */
+.create-event {
+    display: flex;
+    justify-content: center;  /* Center the content horizontally */
+    align-items: center;      /* Center the content vertically */
+    min-height: 100vh;        /* Ensure it takes full height */
+    background: linear-gradient(to right, #6a11cb, #2575fc);  /* Gradient background */
+    padding: 0 1rem;
+  }
+  
+  .event-form-container {
+    background-color: white;
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .create-event-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;  /* More space between form groups */
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;  /* Ensure inputs take full width */
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 120px;  /* Slightly more space for text area */
+    resize: vertical;  /* Allow users to resize it vertically */
+  }
+  
+  .submit-button {
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;  /* Full width for the button */
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .event-form-container {
+      padding: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  

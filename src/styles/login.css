@@ -1,0 +1,12 @@
+.role-select {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.role-select input[type="radio"] {
+  margin-right: 0.5rem;
+  accent-color: #4f46e5;
+}
